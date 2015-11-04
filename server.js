@@ -1,14 +1,16 @@
+var fs = require('fs');
 var express = require('express');
 var jsDAV = require('jsDAV/lib/jsdav');
 var abasic = require('jsDAV/lib/DAV/plugins/auth/abstractBasic');
+
+var WWW_DIR = process.env.OPENSHIFT_DATA_DIR + 'www';
+fs.mkdir(WWW_DIR);
 
 var auth = abasic.extend({
   validateUserPass: function(user, pass, done) {
     done(pass === process.env.OPENSHIFT_APP_UUID);
   }
 });
-
-var WWW_DIR = process.env.OPENSHIFT_DATA_DIR + 'www';
 
 var app = express();
 var dav = jsDAV.mount({
