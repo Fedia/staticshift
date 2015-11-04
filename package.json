@@ -1,0 +1,17 @@
+{
+  "name": "staticshift",
+  "version": "1.0.0",
+  "description": "Static website hosting for OpenShift Online",
+  "keywords": [
+    "openshift",
+    "webdav",
+    "static",
+    "site"
+  ],
+  "author": "https://github.com/Fedia",
+  "dependencies": {
+    "express": "^4.13.3",
+    "jsDAV": "^0.3.3"
+  },
+  "main": "server.js"
+}
