@@ -26,5 +26,5 @@ Staticshift is a WebDAV server, so your website can be mounted as a "network dri
 Please upload `/404.html` to make "Page Not Found" error more friendly.
 
 ## Custom domain
-OpenShift allows you to use your own domain instead of _appname-namespace.rhcloud.com_.
+OpenShift allows to use your own domain instead of _appname-namespace.rhcloud.com_.
 Please see the docs: https://developers.openshift.com/en/managing-domains-ssl.html#using-a-custom-domain
