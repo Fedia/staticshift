@@ -14,7 +14,7 @@ Please note your OpenShift application ID. It looks like a string of 32 random c
 
 ![App ID screenshot](https://cloud.githubusercontent.com/assets/1292964/10956134/3ce3f844-836a-11e5-87c7-9c4f68d845f4.png)
 
-## Uploading files
+## Managing files
 Staticshift is a WebDAV server, so your website can be mounted as a "network drive" in Windows Explorer or OSX Finder. Further reading: https://doc.owncloud.org/server/7.0/user_manual/files/files.html
 
 **Server URL:** http**s**://appname-your_namespace.rhcloud.com
@@ -22,3 +22,8 @@ Staticshift is a WebDAV server, so your website can be mounted as a "network dri
 **Username:** _any_
 
 **Password:** OpenShift application ID, e.g. `563a8a152d5271d4490000bb`
+
+
+## Custom domain
+OpenShift allows you to use your own domain instead of _appname-namespace.rhcloud.com_.
+Please see the docs: https://developers.openshift.com/en/managing-domains-ssl.html#using-a-custom-domain
