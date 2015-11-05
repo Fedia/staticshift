@@ -10,7 +10,7 @@ Host your static website on OpenShift Online with [WebDAV](https://wikipedia.org
 
 (3) Done! The website will be avaliable at _appname-your_namespace.rhcloud.com_.
 
-Please note your OpenShift application ID - 32 random characters, e.g. `563a8a152d5271d4490000bb`. You will need it later to manage your website. 
+Please note your OpenShift application ID - 24 random characters, e.g. `563a8a152d5271d4490000bb`. You will need it later to manage your website. 
 
 ![App ID screenshot](https://cloud.githubusercontent.com/assets/1292964/10956134/3ce3f844-836a-11e5-87c7-9c4f68d845f4.png)
 
