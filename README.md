@@ -23,6 +23,7 @@ Staticshift is a WebDAV server, so your website can be mounted as a "network dri
 
 **Password:** OpenShift application ID, e.g. `563a8a152d5271d4490000bb`
 
+Please upload `/404.html` to make "Page Not Found" error more friendly.
 
 ## Custom domain
 OpenShift allows you to use your own domain instead of _appname-namespace.rhcloud.com_.
